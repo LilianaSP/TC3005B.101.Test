@@ -1,0 +1,179 @@
+{
+  "id": "a0c2fa2d-d886-4a7f-8f99-98bcda393d98",
+  "version": "2.0",
+  "name": "Test1",
+  "url": "https://bstackdemo.com",
+  "tests": [{
+    "id": "9bbf06b6-5ee5-4a84-a780-cacb47f2152f",
+    "name": "addToCart",
+    "commands": [{
+      "id": "75550d00-7d18-4909-94ee-1d4c8e91f5c4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "559687e1-6fb3-4975-9eb3-d33e34ab35b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17f58645-1de1-4e9a-8626-00e00ac8084a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\31 > .shelf-item__buy-btn",
+      "targets": [
+        ["css=#\\31 > .shelf-item__buy-btn", "css:finder"],
+        ["xpath=//div[@id='1']/div[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d853a76-ca74-4c2c-af41-1c81a117cc8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\36 > .shelf-item__buy-btn",
+      "targets": [
+        ["css=#\\36 > .shelf-item__buy-btn", "css:finder"],
+        ["xpath=//div[@id='6']/div[4]", "xpath:idRelative"],
+        ["xpath=//div[7]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e3f5b99-bffb-4488-9cbf-82d873d24384",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\39 > .shelf-item__buy-btn",
+      "targets": [
+        ["css=#\\39 > .shelf-item__buy-btn", "css:finder"],
+        ["xpath=//div[@id='9']/div[4]", "xpath:idRelative"],
+        ["xpath=//div[10]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a846264a-17a3-48b2-8a17-d34a74e02083",
+    "name": "LogIn",
+    "commands": [{
+      "id": "3589b050-a73f-4292-b3a2-8050af9d6312",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00241fef-3878-4969-b014-1bddf5500531",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x724",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d1ddaeb-f5e6-4ea0-9760-4cba35b0360d",
+      "comment": "",
+      "command": "click",
+      "target": "id=signin",
+      "targets": [
+        ["id=signin", "id"],
+        ["linkText=Sign In", "linkText"],
+        ["css=#signin", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In')]", "xpath:link"],
+        ["xpath=//a[@id='signin']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div/div/div/div/div/div[2]/nav/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/offers')])[2]", "xpath:href"],
+        ["xpath=//div[2]/nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfe12064-ae27-4c38-ac2e-c90cf8316041",
+      "comment": "",
+      "command": "type",
+      "target": "id=react-select-2-input",
+      "targets": [
+        ["id=react-select-2-input", "id"],
+        ["css=#react-select-2-input", "css:finder"],
+        ["xpath=//input[@id='react-select-2-input']", "xpath:attributes"],
+        ["xpath=//div[@id='username']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "demouser"
+    }, {
+      "id": "6505a011-6be9-41bb-97f5-d1faff1219e6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=react-select-2-input",
+      "targets": [
+        ["id=react-select-2-input", "id"],
+        ["css=#react-select-2-input", "css:finder"],
+        ["xpath=//input[@id='react-select-2-input']", "xpath:attributes"],
+        ["xpath=//div[@id='username']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "98c8ed4d-55c4-49e8-983a-34f3f79b7bcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1pahdxg-control > .css-1hwfws3",
+      "targets": [
+        ["css=.css-1pahdxg-control > .css-1hwfws3", "css:finder"],
+        ["xpath=//div[@id='password']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1158d19e-c797-48c6-818e-ce72a1ce1651",
+      "comment": "",
+      "command": "type",
+      "target": "id=react-select-3-input",
+      "targets": [
+        ["id=react-select-3-input", "id"],
+        ["css=#react-select-3-input", "css:finder"],
+        ["xpath=//input[@id='react-select-3-input']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "testingisfun99"
+    }, {
+      "id": "4c8bf3c6-7dda-496a-ade7-fdce3649367f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=react-select-3-input",
+      "targets": [
+        ["id=react-select-3-input", "id"],
+        ["css=#react-select-3-input", "css:finder"],
+        ["xpath=//input[@id='react-select-3-input']", "xpath:attributes"],
+        ["xpath=//div[@id='password']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7b031cb1-4e51-4f44-9513-70bbc27973fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-btn",
+      "targets": [
+        ["id=login-btn", "id"],
+        ["css=#login-btn", "css:finder"],
+        ["xpath=//button[@id='login-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d657cac9-e2bf-4226-8b13-a964cb2e5931",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://bstackdemo.com/"],
+  "plugins": []
+}
